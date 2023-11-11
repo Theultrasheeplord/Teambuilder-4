@@ -1,12 +1,15 @@
 const express = require('express');
 const app = express();
+var http = require('http');
+var fs = require('fs');
+const port = 8080
 
-app.get('/', (req, res) => {
-  res.send('Hello from App Engine!');
-});
+var path = require('path');
 
-// Listen to the App Engine-specified port, or 8080 otherwise
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}...`);
-});
+//Serve webpage
+
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.listen(port);
+console.log('listening on port 8080');

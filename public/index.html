@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <base target="_top">
+    <link rel="stylesheet" href="CSS/Stylesheet.css">
+    <link rel="stylesheet" media='screen and (orientation: landscape)' href="CSS/Tablet.css">
+    <link rel="stylesheet" media='only screen and (orientation: portrait)' href="CSS/Mobile.css">
+    
+
+</head>
+<body>
+    <form autocomplete="off">
+
+
+        <div id="TeambuilderMain">
+            <div id="TBheader">
+                <div id="IERbox">
+                    <button id="ResetButton" class="tbButton"> </button>
+                    <button id="ImportButton" class="tbButton"> </button>
+                    <button id="ExportButton" class="tbButton"> </button>
+                </div>
+                <div id="MainSelector" class="tbSelector"> </div>
+                <div id="Alt1Selector" class="tbSelector"> </div>
+                <div id="Alt2Selector" class="tbSelector"> </div>
+
+                <div id="ManSetbox">
+                    <button id="PlayerManagerButton" class="tbButton"> </button>
+                    <button id="SettingsButton" class="tbButton"> </button>
+                </div>
+
+            </div>
+            <div id="Teambuilder">
+                <!--Makegrid function generates all grid items -->
+                <script src="Table.js"></script>
+
+
+
+            </div>
+            <div id="TBFooter">
+            </div>
+        </div>
+
+    </form>
+    <script src="Data.js"></script>
+    <script src="Script.js"></script>
+
+</body>
+
+
+
+
+</html>
