@@ -72,7 +72,7 @@ function makeUniversalGrid() {
             }
             else if (inputID == 4) { classes += " bdr-bm"; }
 
-            content = "<img src=\"https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png\" id=\"TeamIcon" + inputID + "\" class=\"TeamIcons\">";
+            content = "<img src=\"CSS/Assets/1x1.png\" id=\"TeamIcon" + inputID + "\" class=\"TeamIcons\">";
         }
         else if ((i % 37 - 5) % 4 == 0) { //Player input box
             classes = "PlayerInput Team-" + Math.floor(i / 37) + "-PlayerInput r" + (Math.floor((i % 37 - 5) / 4) + 1) + "thPlayer";
@@ -84,8 +84,7 @@ function makeUniversalGrid() {
             content = "<input  id=\"Box-" + id + "\" type=\"text\" name=\"PlayerNameBox_" + inputID + "\" placeholder=\"Playername\" class=\"PlayernameInput\" >";
 
 
-            //<div class=\"Iconbox\"> <img src=\"https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png\" class=\"Icon-9\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png\" class=\"Icon-8\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png\" class=\"Icon-7\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png\" class=\"Icon-6\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png\" class=\"Icon-5\"></div>
-
+            
             if (i % 37 == 17 && Math.floor(i / 37) != 4 && Math.floor(i / 37) != 9) { classes += " bdr-ba"; }
             else if (Math.floor(i / 37) == 4 && i % 37 == 17) { classes += " bdr-bm"; }
         }
