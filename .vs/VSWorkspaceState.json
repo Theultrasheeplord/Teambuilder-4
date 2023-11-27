@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Public",
-    "\\Public\\CSS"
+    "\\public",
+    "\\public\\CSS",
+    "\\public\\CSS\\Assets"
   ],
-  "SelectedNode": "\\Public\\CSS\\Tablet.css",
+  "SelectedNode": "\\public\\index.html",
   "PreviewInSolutionExplorer": false
 }

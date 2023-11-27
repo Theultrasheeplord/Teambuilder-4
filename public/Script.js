@@ -1,4 +1,4 @@
-const defaultNames = [[{ "Name": "Eunry Echidnias", "Color": "#CFA39D", "IconXOffset": "0", "IconYOffset": "9" }, { "Name": "Hazelnut Highland Goats", "Color": "#D4893B", "IconXOffset": "1", "IconYOffset": "9" }, { "Name": "Jasmine Jelyfish", "Color": "#F8DE7E", "IconXOffset": "2", "IconYOffset": "9" }, { "Name": "Zuchini Zombies", "Color": "#274e13", "IconXOffset": "3", "IconYOffset": "9" }, { "Name": "Edgewater Eagles", "Color": "#C8E3D7", "IconXOffset": "4", "IconYOffset": "9" }, { "Name": "Astral Alpaccas", "Color": "#309ba2", "IconXOffset": "5", "IconYOffset": "9" }, { "Name": "Indigo Iguanas", "Color": "#4405a0", "IconXOffset": "6", "IconYOffset": "9" }, { "Name": "Fandango Flying Fish", "Color": "#B53389", "IconXOffset": "7", "IconYOffset": "9" }, { "Name": "Heavy Metal hummingbirds", "Color": "#282928", "IconXOffset": "8", "IconYOffset": "5" }, { "Name": "Dawn Dashounds", "Color": "#A6a29a", "IconXOffset": "8", "IconYOffset": "6" }, { "Name": "Quartz Kiwis", "Color": "#FFE4E1", "IconXOffset": "8", "IconYOffset": "7" }, { "Name": "Zircon Zebreas", "Color": "#DEE3E3", "IconXOffset": "8", "IconYOffset": "8" }, { "Name": "Walnut Wombats", "Color": "#773F1A", "IconXOffset": "9", "IconYOffset": "5" }, { "Name": "Khaki Kangaroo's", "Color": "#C3B091", "IconXOffset": "9", "IconYOffset": "6" }, { "Name": "Nero Narwhals", "Color": "#140600", "IconXOffset": "9", "IconYOffset": "7" }, { "Name": "Ivory Ibises", "Color": "#FFFFF0", "IconXOffset": "9", "IconYOffset": "8" }], [{ "Name": "Red Rabbits", "Color": "#FF0000", "IconXOffset": "0", "IconYOffset": "0" }, { "Name": "Orange Ocelots", "Color": "#ff9900", "IconXOffset": "1", "IconYOffset": "0" }, { "Name": "Yellow Yaks", "Color": "#ffff00", "IconXOffset": "2", "IconYOffset": "0" }, { "Name": "Lime Llamas", "Color": "#00ff00", "IconXOffset": "3", "IconYOffset": "0" }, { "Name": "Green Geckos", "Color": "#075307", "IconXOffset": "4", "IconYOffset": "0" }, { "Name": "Cyan Coyotes", "Color": "#5da1bb", "IconXOffset": "5", "IconYOffset": "0" }, { "Name": "Aqua Axolotols", "Color": "#00ffff", "IconXOffset": "6", "IconYOffset": "0" }, { "Name": "Blue Bats", "Color": "#0000ff", "IconXOffset": "7", "IconYOffset": "0" }, { "Name": "Purple Pandas", "Color": "#8124bb", "IconXOffset": "8", "IconYOffset": "0" }, { "Name": "Pink Parrots", "Color": "#ff78ff", "IconXOffset": "9", "IconYOffset": "0" }], [{ "Name": "Scarlet Sharks", "Color": "#eb403c", "IconXOffset": "0", "IconYOffset": "5" }, { "Name": "Orange Otters", "Color": "#ec8b33", "IconXOffset": "1", "IconYOffset": "5" }, { "Name": "Golden Gorilas", "Color": "#f2ba0c", "IconXOffset": "2", "IconYOffset": "5" }, { "Name": "Lime Lions", "Color": "#62dd0b", "IconXOffset": "3", "IconYOffset": "5" }, { "Name": "Teal Turtles", "Color": "#09abe9", "IconXOffset": "4", "IconYOffset": "5" }, { "Name": "Blue Bears", "Color": "#0057fa", "IconXOffset": "5", "IconYOffset": "5" }, { "Name": "Purple Pelicans", "Color": "#961dcf", "IconXOffset": "6", "IconYOffset": "5" }, { "Name": "Fuchsia Frogs", "Color": "#e627cf", "IconXOffset": "7", "IconYOffset": "5" }], [{ "Name": "Crimson Cylopes", "Color": "#ae2b24", "IconXOffset": "0", "IconYOffset": "6" }, { "Name": "Hazel Hydras", "Color": "#fa8a49", "IconXOffset": "1", "IconYOffset": "6" }, { "Name": "Golden Griffins", "Color": "#e4b525", "IconXOffset": "2", "IconYOffset": "6" }, { "Name": "Mint Mermaids", "Color": "#194a1d", "IconXOffset": "3", "IconYOffset": "6" }, { "Name": "Diamond Dragons", "Color": "#0d93db", "IconXOffset": "4", "IconYOffset": "6" }, { "Name": "Colbalt Centaurs", "Color": "#16216f", "IconXOffset": "5", "IconYOffset": "6" }, { "Name": "Purple Phoenixes", "Color": "#892bb4", "IconXOffset": "6", "IconYOffset": "6" }, { "Name": "Pink Pegasi", "Color": "#d124c8", "IconXOffset": "7", "IconYOffset": "6" },]];
+﻿const defaultNames = [[{ "Name": "Eunry Echidnias", "Color": "#CFA39D", "IconXOffset": "0", "IconYOffset": "9" }, { "Name": "Hazelnut Highland Goats", "Color": "#D4893B", "IconXOffset": "1", "IconYOffset": "9" }, { "Name": "Jasmine Jelyfish", "Color": "#F8DE7E", "IconXOffset": "2", "IconYOffset": "9" }, { "Name": "Zuchini Zombies", "Color": "#274e13", "IconXOffset": "3", "IconYOffset": "9" }, { "Name": "Edgewater Eagles", "Color": "#C8E3D7", "IconXOffset": "4", "IconYOffset": "9" }, { "Name": "Astral Alpaccas", "Color": "#309ba2", "IconXOffset": "5", "IconYOffset": "9" }, { "Name": "Indigo Iguanas", "Color": "#4405a0", "IconXOffset": "6", "IconYOffset": "9" }, { "Name": "Fandango Flying Fish", "Color": "#B53389", "IconXOffset": "7", "IconYOffset": "9" }, { "Name": "Heavy Metal hummingbirds", "Color": "#282928", "IconXOffset": "8", "IconYOffset": "5" }, { "Name": "Dawn Dashounds", "Color": "#A6a29a", "IconXOffset": "8", "IconYOffset": "6" }, { "Name": "Quartz Kiwis", "Color": "#FFE4E1", "IconXOffset": "8", "IconYOffset": "7" }, { "Name": "Zircon Zebreas", "Color": "#DEE3E3", "IconXOffset": "8", "IconYOffset": "8" }, { "Name": "Walnut Wombats", "Color": "#773F1A", "IconXOffset": "9", "IconYOffset": "5" }, { "Name": "Khaki Kangaroo's", "Color": "#C3B091", "IconXOffset": "9", "IconYOffset": "6" }, { "Name": "Nero Narwhals", "Color": "#140600", "IconXOffset": "9", "IconYOffset": "7" }, { "Name": "Ivory Ibises", "Color": "#FFFFF0", "IconXOffset": "9", "IconYOffset": "8" }], [{ "Name": "Red Rabbits", "Color": "#FF0000", "IconXOffset": "0", "IconYOffset": "0" }, { "Name": "Orange Ocelots", "Color": "#ff9900", "IconXOffset": "1", "IconYOffset": "0" }, { "Name": "Yellow Yaks", "Color": "#ffff00", "IconXOffset": "2", "IconYOffset": "0" }, { "Name": "Lime Llamas", "Color": "#00ff00", "IconXOffset": "3", "IconYOffset": "0" }, { "Name": "Green Geckos", "Color": "#075307", "IconXOffset": "4", "IconYOffset": "0" }, { "Name": "Cyan Coyotes", "Color": "#5da1bb", "IconXOffset": "5", "IconYOffset": "0" }, { "Name": "Aqua Axolotols", "Color": "#00ffff", "IconXOffset": "6", "IconYOffset": "0" }, { "Name": "Blue Bats", "Color": "#0000ff", "IconXOffset": "7", "IconYOffset": "0" }, { "Name": "Purple Pandas", "Color": "#8124bb", "IconXOffset": "8", "IconYOffset": "0" }, { "Name": "Pink Parrots", "Color": "#ff78ff", "IconXOffset": "9", "IconYOffset": "0" }], [{ "Name": "Scarlet Sharks", "Color": "#eb403c", "IconXOffset": "0", "IconYOffset": "5" }, { "Name": "Orange Otters", "Color": "#ec8b33", "IconXOffset": "1", "IconYOffset": "5" }, { "Name": "Golden Gorilas", "Color": "#f2ba0c", "IconXOffset": "2", "IconYOffset": "5" }, { "Name": "Lime Lions", "Color": "#62dd0b", "IconXOffset": "3", "IconYOffset": "5" }, { "Name": "Teal Turtles", "Color": "#09abe9", "IconXOffset": "4", "IconYOffset": "5" }, { "Name": "Blue Bears", "Color": "#0057fa", "IconXOffset": "5", "IconYOffset": "5" }, { "Name": "Purple Pelicans", "Color": "#961dcf", "IconXOffset": "6", "IconYOffset": "5" }, { "Name": "Fuchsia Frogs", "Color": "#e627cf", "IconXOffset": "7", "IconYOffset": "5" }], [{ "Name": "Crimson Cylopes", "Color": "#ae2b24", "IconXOffset": "0", "IconYOffset": "6" }, { "Name": "Hazel Hydras", "Color": "#fa8a49", "IconXOffset": "1", "IconYOffset": "6" }, { "Name": "Golden Griffins", "Color": "#e4b525", "IconXOffset": "2", "IconYOffset": "6" }, { "Name": "Mint Mermaids", "Color": "#194a1d", "IconXOffset": "3", "IconYOffset": "6" }, { "Name": "Diamond Dragons", "Color": "#0d93db", "IconXOffset": "4", "IconYOffset": "6" }, { "Name": "Colbalt Centaurs", "Color": "#16216f", "IconXOffset": "5", "IconYOffset": "6" }, { "Name": "Purple Phoenixes", "Color": "#892bb4", "IconXOffset": "6", "IconYOffset": "6" }, { "Name": "Pink Pegasi", "Color": "#d124c8", "IconXOffset": "7", "IconYOffset": "6" },]];
 var playerInputs = [];
 var selectedPlayers = [];
 var playerStatBox1 = [];
@@ -9,6 +9,81 @@ var teamStatBox2 = [];
 var teamStatBox3 = [];
 var teamFormat = 10;
 var playerFormat = 4;
+
+var manSel = document.getElementById("ManSel");
+var alt1Sel = document.getElementById("Alt1Sel");
+var alt2Sel = document.getElementById("Alt2Sel");
+
+var selectedDataTypes = ["average", "scottsMethod", "teamPlacment"];
+
+var roundto = {
+    "id": "S",
+    "name": "S",
+    "imageURL": "S",
+    "statusCode": "S",
+    "ign": "S",
+    "average": "#,###",
+    "seasonAverage": "#,###",
+    "scottsMethod": "#,###",
+    "nonCanonAverage": "#,###",
+    "rpr": "0.00",
+    "lastEvent": "#,###",
+    "wins": "#P",
+    "Career": "#.#",
+    "RCareer": "#.#",
+    "SCareer": "#.#",
+    "totalWins": "#P",
+    "games": "S",
+    "UUID": "S",
+    "alias": "S",
+    "indivPlacment": "#.0#",
+    "teamPlacment": "#.00",
+    "dbAcuracy": "0%",
+    "dbDodgerate": "0%",
+    "dbKDR": "",
+    "dbWLR": ""
+};
+
+function formatNumber(str, format) {
+    if (format == "S") { return str.toString(); }
+    let n = str;
+    let suffix = "";
+    if (format.indexOf("%") != -1) {
+        n = n * 100;
+        suffix = "%";
+    }
+    let dpInString = format.indexOf(".");
+    
+    if (format.endsWith("U") || format.endsWith("u")) {
+        if (n <= 10 ** -10) { suffix += "p"; n *=10 **12; }
+        else if (n <= 10 ** -7) { suffix += "n"; n *=10 **9; }
+        else if (n <= 10 ** -4) { suffix += "μ"; n *=10 **6; }
+        else if (n < 0.1) { suffix += "m"; n *=10 **3; }
+        else if (n >= 10 ** 12) { suffix += "T"; n *=10 **-12; }
+        else if (n >= 10 ** 9) { suffix += "B"; n *= 10 **-9; }
+        else if (n >= 10 ** 6) { suffix += "M"; n *=10 **-6; }
+        else if (n >= 10 ** 3) { suffix += "K"; n *=10 **-3; }
+    }
+    else if (format.endsWith("K")) { suffix += "K"; n *= 10 ** -3; }
+    else if (format.endsWith("M")) { suffix += "M"; n *= 10 ** -6; }
+    else if (format.endsWith("B")) { suffix += "B"; n *= 10 ** -9; }
+    else if (format.endsWith("T")) { suffix += "T"; n *= 10 ** -12; }
+    else if (format.endsWith("m")) { suffix += "m"; n *= 10 ** 3; }
+    else if (format.endsWith("μ")) { suffix += "μ"; n *= 10 ** 6; }
+    else if (format.endsWith("n")) { suffix += "n"; n *= 10 ** 9; }
+    else if (format.endsWith("p")) { suffix += "p"; n *= 10 ** 12; }
+    
+
+
+    if (dpInString != -1) {
+        const postDPMatch = format.match(/(?<=\.)([#0]*)/g);
+        n = n.toFixed(postDPMatch[0].length);
+    }
+    else { n = Math.round(n).toString(); }
+
+    return n + suffix;
+}
+
 
 function formatLayout(teams, players, mode) {
     teamFormat = teams;
@@ -168,9 +243,34 @@ for (i = 0; i < 128; i++) {
     autocomplete(document.getElementById("Box-PlayerInput-" + i), dataset, i);
 }
 
+function dataTypeUpdate(n) {
+    switch (n) {
+        case 0:
+            selectedDataTypes[0] = manSel.value;
+            break;
+        case 1:
+            selectedDataTypes[1] = alt1Sel.value;
+            break;
+        case 2:
+            selectedDataTypes[2] = alt2Sel.value;
+            break;
+    }
+    updateAllStats();
+}
+
+manSel.addEventListener("change", dataTypeUpdate(0));
+alt1Sel.addEventListener("change", dataTypeUpdate(1));
+alt2Sel.addEventListener("change", dataTypeUpdate(2));
+
+
+function updateAllStats() {
+
+}
+
+
 function updateStats(box) {
     //Update player stat box
-    playerStatBox1[box].innerHTML = Math.round(dataset[parseInt(selectedPlayers[box], 16)].average);
+    playerStatBox1[box].innerHTML = Math.round(dataset[parseInt(selectedPlayers[box], 16)][selectedDataTypes[0]]);
 
     //Add colors
 

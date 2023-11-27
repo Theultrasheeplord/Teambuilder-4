@@ -324,6 +324,13 @@ input[poster] {
 	border: 1px solid;
 }
 
+.Selector {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+
 .tbSelector {
 	width: 15%;
 	border-top-right-radius: 25%;

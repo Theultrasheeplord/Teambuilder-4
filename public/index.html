@@ -25,9 +25,39 @@
                     <button id="ImportButton" class="tbButton"> </button>
                     <button id="ExportButton" class="tbButton"> </button>
                 </div>
-                <div id="MainSelector" class="tbSelector"> </div>
-                <div id="Alt1Selector" class="tbSelector"> </div>
-                <div id="Alt2Selector" class="tbSelector"> </div>
+                <div id="MainSelector" class="tbSelector">
+                    <select id="ManSel" class="Selector" onchange="dataTypeUpdate(0)">
+                        <option value="average">Average</option>
+                        <option value="scottsMethod">Scott Method</option>
+                        <option value="teamPlacment">Avg Team placement</option>
+                        <option value="indivPlacment">Avg Indiv placement</option>
+                        <option value="Career">Career Score</option>
+                        <option value="RCareer">Raw Career Score</option>
+                        <option value="lastEvent">Last Event</option>
+                    </select>
+                </div>
+                <div id="Alt1Selector" class="tbSelector">
+                    <select id="Alt1Sel" class="Selector" onchange="dataTypeUpdate(1)">
+                        <option value="average">Average</option>
+                        <option value="scottsMethod">Scott Method</option>
+                        <option value="teamPlacment">Avg Team placement</option>
+                        <option value="indivPlacment">Avg Indiv placement</option>
+                        <option value="Career">Career Score</option>
+                        <option value="RCareer">Raw Career Score</option>
+                        <option value="lastEvent">Last Event</option>
+                    </select>
+                </div>
+                <div id="Alt2Selector" class="tbSelector">
+                    <select id="Alt2Sel" class="Selector" onchange="dataTypeUpdate(2)">
+                        <option value="average">Average</option>
+                        <option value="scottsMethod">Scott Method</option>
+                        <option value="teamPlacment">Avg Team placement</option>
+                        <option value="indivPlacment">Avg Indiv placement</option>
+                        <option value="Career">Career Score</option>
+                        <option value="RCareer">Raw Career Score</option>
+                        <option value="lastEvent">Last Event</option>
+                    </select>
+                </div>
 
                 <div id="ManSetbox">
                     <button id="PlayerManagerButton" class="tbButton"> </button>
